@@ -1,0 +1,85 @@
+TRACCIA 6
+
+Ordinare una pizza
+
+Tu non hai fame?!
+Dopo una lunga giornata passata al pc, ho proprio voglia di concedermi una bella pizza succulenta! 
+Sì, ma quale? Fammi dare un occhio al listino… 
+Va beh, è inutile, tanto alla fine ordino sempre la stessa: una classica prosciutto e funghi. 
+La pizza arriva ancora fumante, chissà se riuscirò a mangiarla tutta!
+Di sicuro se ne avanzo una fetta devo ricordarmi di metterla in frigo, non come l’ultima volta! 
+
+---------------------------------------------------------------------------
+
+prendo il listino
+
+scelgo la pizza
+
+mi accorgo che non mi piacciono e ordino la solita
+
+chiamo e ordino la pizza
+
+pago il corriere
+
+la mangio
+
+conservo l'ultima fetta in frigo
+
+-------------------------
+- controllo se ho contanti
+- *** cerco il sito di una pizzeria su google
+- cerco il listino
+- leggo il menù
+- Voglio cambiare pizza?
+    ? la cambio
+    : prendo la solita prosciutto e funghi
+        - non c'è nel listino?
+            ? *** cerco il sito di una pizzeria su google
+- cerco il numero della pizzeria
+- prendo il telefono e chiamo la pizzeria
+- Non Rispondono alla chiamata?
+    ? *** cerco il sito di una pizzeria su google
+    : chiamata:
+        - non ho contanti?
+        ? chiedo, il corriere ha il pos?
+            ? scelgo di pagare con la carta di credito/debito
+            : *** cerco il sito di una pizzeria su google
+        - ordino la pizza
+        - non possono farla?
+            ? *** cerco il sito di una pizzeria su google
+        - do l'indirizzo di casa
+        - chiudo la chiamata
+- il corriere non arriverà?
+    ? richiamo la pizzeria
+      - Non Rispondono alla chiamata?
+        ? *** cerco il sito di una pizzeria su google
+        : chiamata:
+            - chiedo se si sono mangiati la mia pizza
+            - Si sono mangiati la mia pizza?
+                ? *** cerco il sito di una pizzeria su google
+                : chiedo se manca molto
+                - manca molto?
+                    ? *** cerco il sito di una pizzeria su google
+                    : aspetto
+            - chiudo la chiamata 
+    : "Arriva il corriere"
+    - non abitiamo al piano terra?
+        ? il corriere sale al mio piano
+    - prendo i soldi 
+    - apro la porta
+    - pago il corriere
+    - il corriere è arrivato puntuale?
+        ? do la mancia
+        : non do la mancia
+    - prendo la pizza 
+    - saluto
+    - chiudo la porta
+- mi lavo le mani
+- apparecchio la tavola
+- la pizza è ancora fumante?
+    ? aspetto 5 minuti
+    : la mangio subito
+- Non l'ho finita tutta?
+    ? La conservo nel frigo
+- sparecchio la tavola
+- butto il cartone
